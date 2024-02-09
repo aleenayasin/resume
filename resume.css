@@ -1,0 +1,89 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.name-profession h1 {
+  margin: 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.introduction {
+  padding: 20px;
+}
+
+.experience-education {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.experience,
+.education {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.skills {
+  padding: 20px;
+}
+
+.programming-skills,
+.graphics-skills,
+.language-skills {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #3498db;
+}
+
+.graphics-point,
+.language-circle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.point,
+.language-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
